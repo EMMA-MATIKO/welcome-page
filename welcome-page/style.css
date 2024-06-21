@@ -9,35 +9,18 @@ body {
     height: 100vh;
 }
 
-.welcome-message {
-    opacity: 0;
-    transform: translateY(-20px);
-    animation: fadeIn 1s ease forwards;
+h1 {
+    animation: appear 3s;
 }
 
-.line1 {
-    animation: slideIn1 1s ease forwards;
+p {
+    animation: appear 7s;
 }
-
-.line2 {
-    animation: slideIn2 1s ease forwards;
-}
-
-@keyframes fadeIn {
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
     to {
         opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes slideIn1 {
-    to {
-        transform: translateY(0);
-    }
-}
-
-@keyframes slideIn2 {
-    to {
-        transform: translateY(0);
     }
 }
