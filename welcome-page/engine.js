@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (index < text.length) {
             textElement.innerHTML += text.charAt(index);
             index++;
-            setTimeout(type, 30);
+            setTimeout(type, 40);
         } else {
             textElement.classList.remove("typing-effect");
         }
