@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const textElement = document.getElementById("typing-text");
-    const text = "Let's explore the web fast, privately and securely 😉";
+    const text = "Let's again explore the web fast, privately and securely 😉";
     let index = 0;
 
     function type() {
