@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
     const textElement = document.getElementById("typing-text");
-    const text = "Let's explore the web fast, privately and securely 😉";
+    const text = "All set to explore the web 😉";
     let index = 0;
 
     function type() {
         if (index < text.length) {
             textElement.innerHTML += text.charAt(index);
             index++;
-            setTimeout(type, 40);
+            setTimeout(type, 30);
         } else {
             textElement.classList.remove("typing-effect");
         }
